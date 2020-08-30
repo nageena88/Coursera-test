@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+h1{
+	text-align: center;
+}
+div{
+	margin: 10px;
+	border: 2px solid black;
+	width: 30%;
+	float: left;
+}
+
+.p1{
+	width: 100px;
+	background-color: pink;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-left: 5px;
+	font-weight: bold;
+	margin-top: 0px;
+	position: relative;
+	top: 0px;
+	float: right;
+}
+.para{
+	margin-top: 30px;
+	padding: 10px;
+}
+.p2{
+	background-color: red;
+	color: white;
+}
+.p3{
+	background-color: #d0eb36;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div{
+  	width: 40%;
+  }
+  .sec3{
+  	width: 82%
+  }
+}
+
+@media (max-width: 767px)
+{
+	div{
+		width: 100%;
+		margin: 20px;
+	}
+}
